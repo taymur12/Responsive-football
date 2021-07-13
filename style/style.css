@@ -92,16 +92,46 @@
 
 
 
+/* SECOND SECTION  */
+
+.main-container-player{
+    padding-top: 70px;
+    margin-left: 180px;
+    margin-right: 210px;
+    
+}
+
+.player-box-1st-row{
+   width: 1050px;
+   height: 474px;
+}
+.image-neymar img{
+    width: 300px;
+    height: 256px;
+}
 
 
+.player-box-1st-row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+  
+}
 
+.container-player-box{
+    width: 300px;
+    height: 474px;
+    border: 1px solid #FFFFFF;
+    padding: 15px;
+    background: #FFFFFF;
+box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 
-
-
-
-
-
-
+  
+}
+main{
+    background-color: #F1F1F1;
+}
 
 
 
