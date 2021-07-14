@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* FIRST SECTION */
@@ -94,10 +95,15 @@
 
 /* SECOND SECTION  */
 
+main{
+    background-color: #F1F1F1;
+}
+
 .main-container-player{
     padding-top: 70px;
     margin-left: 180px;
     margin-right: 210px;
+    margin-bottom: 80px;
     
 }
 
@@ -116,23 +122,40 @@
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 27px;
-  
+    
 }
 
 .container-player-box{
     width: 300px;
-    height: 474px;
+    height: 440px;
     border: 1px solid #FFFFFF;
     padding: 15px;
     background: #FFFFFF;
 box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-
   
 }
-main{
-    background-color: #F1F1F1;
+
+.player-name{
+    color: #18191F;
+    font-size: 28px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+
+.player-description{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 400;
+   
+}
+
+.player-name-description{
+    margin-bottom: 33px;
 }
 
 
 
-
+.player-box-row-gap{
+    margin-top: 27px;
+}
