@@ -112,17 +112,14 @@ main{
     
 }
 
-.player-box-1st-row{
-   width: 1050px;
-   height: 474px;
-}
+
 .image-neymar img{
     width: 300px;
     height: 256px;
 }
 
 
-.player-box-1st-row{
+.player-box-1st-row, .player-box-2nd-row, .player-box-3rd-row,.player-box-4th-row{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
@@ -355,4 +352,120 @@ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
 .footer-icon{
     margin-bottom: 20px;
+}
+
+ /* End */
+
+
+
+
+
+
+
+/* MEDIA QUERY FOR MOBILE DEVICE  */
+
+
+
+
+ /* FIRST SECTION */
+
+@media only screen and (max-width:688px) {
+     .main-container-copa{
+        width: 400px ;
+        height: 677px;
+        background-color:rgb(93,15,227);
+    }
+    
+    .container-copa-america{
+        
+        flex-direction: column;
+    
+    }
+    
+    .copa-america-2021{
+        width: 100%;
+        margin-right: 20%;
+    }
+    
+    .image-copa-america img{
+        width: 50%;
+        
+        position: relative;
+        left: 60px;
+        top: -50px;
+    
+    }
+    
+    .copa-america-title{
+        font-family: 'Poppins', sans-serif;
+        font-size: 44px;
+        font-weight: 700;
+        color: #FFFFFF;
+        flex-wrap: wrap;
+        
+        
+    }
+    
+    
+    .image-copa-america{
+        
+        height: 438px;
+        margin-top: 1px;
+        margin-right: 100%;
+        
+    }
+    
+    .image-copa-america:hover{
+        transform: rotate(15deg);
+        -webkit-transform: rotate(15deg);
+        -moz-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+        -o-transform: rotate(15deg);
+        transition: transform 5s ease-in;
+        -webkit-transition: transform 2s ease-in;
+        -moz-transition: transform 5s ease-in;
+        -ms-transition: transform 5s ease-in;
+        -o-transition: transform 5s ease-in;
+
+
+
+    }
+ 
+
+    /* SECOND SECTION */
+
+    .player-box-1st-row, .player-box-2nd-row, .player-box-3rd-row,.player-box-4th-row{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 27px;
+        
+    }
+    
+    .main-container-player{
+        padding-top: 70px;
+        margin-left: 10px;
+        
+        margin-bottom: 80px;
+        
+    }
+
+    .container-player-box{
+        width: 100%;
+        height: 440px;
+        border: 1px solid #FFFFFF;
+        padding: 15px;
+        background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+      
+    }
+    .image-neymar img{
+        width: 100%;
+        height: 100%;
+    }
+ 
+
+    /* THIRD SECTION  */
+
+    
 }
