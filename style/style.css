@@ -159,3 +159,109 @@ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 .player-box-row-gap{
     margin-top: 27px;
 }
+
+
+
+/* THIRD SECTION */
+
+.main-container-highlights-copa{
+    margin-top: 165px;
+}
+
+.container-highlights{
+    display: flex;
+    align-items: center;
+}
+
+.copa-highlights-2021{
+    width: 50%;
+
+}
+.image-copa-highlights img{
+    width: 567px;
+    height: 427px;
+}
+
+.highlights-title-description{
+    margin-left:  182px;
+    margin-right: 120px;
+    
+}
+
+.highlights-title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #0A0826;
+}
+
+.highlights-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C6C;
+    margin-right: 190px;
+    text-align: justify;
+    margin-top: 8px;
+
+}
+
+
+.button-highlights-watch-live{
+    margin-top: 34px;
+    
+}
+
+.btn-highlights{
+    border: 1px solid #E02C6D;
+    padding: 10px 24px;
+    color: #FFFFFF;
+    background-color:#E02C6D;
+    text-decoration: none;
+    
+}
+
+
+.fa-arrow-right{
+    padding-left: 5px;
+    
+}
+
+
+.btn-highlights:hover{
+    background-color: #FFFFFF;
+    color: black;
+    border: 1px solid black;
+}
+
+.btn-highlights:hover .fa-arrow-right{
+    transform: translate(15px);
+    -webkit-transform: translate(15px);
+    -moz-transform: translate(15px);
+    -ms-transform: translate(15px);
+    -o-transform: translate(15px);
+    transition: transform 1s ease-in;
+    -webkit-transition: transform 1s ease-in;
+    -moz-transition: transform 1s ease-in;
+    -ms-transition: transform 1s ease-in;
+    -o-transition: transform 1s ease-in;
+}
+
+.image-copa-highlights{
+    margin-right: 156px ;
+    
+
+}
+
+
+.image-copa-highlights:hover img{
+    transform: scale(1.5);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transition: transform 2s ease-in;
+    -webkit-transition: transform 2s ease-in;
+    -moz-transition: transform 2s ease-in;
+    -ms-transition: transform 2s ease-in;
+    -o-transition: transform 2s ease-in;
+}
+
