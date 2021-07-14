@@ -467,5 +467,73 @@ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 
     /* THIRD SECTION  */
 
+    .container-highlights{
+        flex-direction: column;
+    }
+
+    .copa-highlights-2021{
+        width: 65%;
     
+    }
+    .image-copa-highlights img{
+        width: 567px;
+        height: 427px;
+    }
+    
+    .highlights-title-description{
+        margin-left: 1px;
+        margin-right: 120px;
+        
+    }
+    .image-copa-highlights img {
+
+    display: none;
+    }
+
+    
+    /* FOURTH SECTION */
+
+    
+    
+    .footy-feature-box{
+        flex-direction: column;
+        
+        
+    }
+    .footy-box{
+        margin-top: 20px;
+    }
+
+    .footy-description{
+        margin-left: 10px;
+        margin: 0;
+        
+    }
+    .description-footy{
+        margin-right: 35%;
+    }
+
+
+ /* FIFTH SECTION */
+
+ .image-footer img{
+     width: 50%;
+ }
+ 
+ .container-footer{
+     margin-top: 190%;
+ }
+
+ .fab{
+     padding-right: 15px;
+     
+
+ }
+ .footer-icon{
+     margin-right: 110px;
+ }
+small{
+    margin-right: 130px;
+}
+
 }
