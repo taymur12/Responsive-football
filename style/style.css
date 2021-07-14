@@ -362,7 +362,9 @@ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 
 
 
-/* MEDIA QUERY FOR MOBILE DEVICE  */
+/* ----------------------
+MEDIA QUERY FOR MOBILE DEVICE 
+---------------------------- */
 
 
 
@@ -374,21 +376,25 @@ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
         width: 400px ;
         height: 677px;
         background-color:rgb(93,15,227);
+        overflow-x: hidden;
+        overflow-y: hidden;
     }
     
     .container-copa-america{
         
         flex-direction: column;
+      
     
     }
     
     .copa-america-2021{
         width: 100%;
         margin-right: 20%;
+       
     }
     
     .image-copa-america img{
-        width: 50%;
+        width: 30%;
         
         position: relative;
         left: 60px;
@@ -416,21 +422,24 @@ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     }
     
     .image-copa-america:hover{
-        transform: rotate(15deg);
-        -webkit-transform: rotate(15deg);
-        -moz-transform: rotate(15deg);
-        -ms-transform: rotate(15deg);
-        -o-transform: rotate(15deg);
+        transform: rotate(2deg);
+        -webkit-transform: rotate(2deg);
+        -moz-transform: rotate(2deg);
+        -ms-transform: rotate(2deg);
+        -o-transform: rotate(2deg);
         transition: transform 5s ease-in;
         -webkit-transition: transform 2s ease-in;
         -moz-transition: transform 5s ease-in;
         -ms-transition: transform 5s ease-in;
         -o-transition: transform 5s ease-in;
-
-
-
+}
+    .copa-america-title{
+        margin-right: 70%;
+        
     }
- 
+    .copa-america-text{
+        font-size: 30px;
+    }
 
     /* SECOND SECTION */
 
@@ -439,6 +448,7 @@ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
         grid-template-columns: repeat(1, 1fr);
         grid-column-gap: 30px;
         grid-row-gap: 27px;
+       
         
     }
     
@@ -447,6 +457,7 @@ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
         margin-left: 10px;
         
         margin-bottom: 80px;
+       
         
     }
 
@@ -475,14 +486,14 @@ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
         width: 65%;
     
     }
-    .image-copa-highlights img{
-        width: 567px;
-        height: 427px;
+    
+    .highlights-title{
+        font-size: 28px;
     }
     
     .highlights-title-description{
-        margin-left: 1px;
-        margin-right: 120px;
+        margin-left: 10px;
+        margin-right: 130px;
         
     }
     .image-copa-highlights img {
@@ -505,12 +516,13 @@ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     }
 
     .footy-description{
-        margin-left: 10px;
+       
         margin: 0;
         
     }
     .description-footy{
-        margin-right: 35%;
+        margin-right: 45%;
+        margin-left: 10px;
     }
 
 
@@ -521,7 +533,7 @@ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
  }
  
  .container-footer{
-     margin-top: 190%;
+     margin-top: 230%;
  }
 
  .fab{
