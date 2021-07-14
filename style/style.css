@@ -64,10 +64,15 @@
 
 .btn-watch:hover .fa-arrow-right{
     transform: translate(10px);
+    transition: transform .7s ease-in-out;
     -webkit-transform: translate(10px);
     -moz-transform: translate(10px);
     -ms-transform: translate(10px);
     -o-transform: translate(10px);
+    -webkit-transition: transform .7s ease-in-out;
+    -moz-transition: transform .7s ease-in-out;
+    -ms-transition: transform .7s ease-in-out;
+    -o-transition: transform .7s ease-in-out;
 }
 
 .image-copa-america{
