@@ -97,11 +97,11 @@
 }
 
 
-
 /* SECOND SECTION  */
 
 main{
     background-color: #F1F1F1;
+    
 }
 
 .main-container-player{
@@ -113,13 +113,13 @@ main{
 }
 
 
-.image-neymar img{
+.image-players img{
     width: 300px;
     height: 256px;
 }
 
 
-.player-box-1st-row, .player-box-2nd-row, .player-box-3rd-row,.player-box-4th-row{
+.container-players-box{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
@@ -127,13 +127,14 @@ main{
     
 }
 
-.container-player-box{
+.players-box{
     width: 300px;
     height: 440px;
     border: 1px solid #FFFFFF;
     padding: 15px;
     background: #FFFFFF;
-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    
   
 }
 
