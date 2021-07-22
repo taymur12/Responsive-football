@@ -363,194 +363,6 @@ main{
 
 
 
-/* ----------------------
-MEDIA QUERY FOR MOBILE DEVICE 
----------------------------- */
-
-
-
-
- /* FIRST SECTION */
-
-@media only screen and (max-width:688px) {
-     .main-container-copa{
-        width: 400px ;
-        height: 677px;
-        background-color:rgb(93,15,227);
-        overflow-x: hidden;
-        overflow-y: hidden;
-    }
-    
-    .container-copa-america{
-        
-        flex-direction: column;
-      
-    
-    }
-    
-    .copa-america-2021{
-        width: 100%;
-        margin-right: 20%;
-       
-    }
-    
-    .image-copa-america img{
-        width: 30%;
-        
-        position: relative;
-        left: 60px;
-        top: -50px;
-    
-    }
-    
-    .copa-america-title{
-        font-family: 'Poppins', sans-serif;
-        font-size: 44px;
-        font-weight: 700;
-        color: #FFFFFF;
-        flex-wrap: wrap;
-        
-        
-    }
-    
-    
-    .image-copa-america{
-        
-        height: 438px;
-        margin-top: 1px;
-        margin-right: 100%;
-        
-    }
-    
-    .image-copa-america:hover{
-        transform: rotate(2deg);
-        -webkit-transform: rotate(2deg);
-        -moz-transform: rotate(2deg);
-        -ms-transform: rotate(2deg);
-        -o-transform: rotate(2deg);
-        transition: transform 5s ease-in;
-        -webkit-transition: transform 2s ease-in;
-        -moz-transition: transform 5s ease-in;
-        -ms-transition: transform 5s ease-in;
-        -o-transition: transform 5s ease-in;
-}
-    .copa-america-title{
-        margin-right: 70%;
-        
-    }
-    .copa-america-text{
-        font-size: 30px;
-    }
-
-    /* SECOND SECTION */
-
-    .player-box-1st-row, .player-box-2nd-row, .player-box-3rd-row,.player-box-4th-row{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-column-gap: 30px;
-        grid-row-gap: 27px;
-       
-        
-    }
-    
-    .main-container-player{
-        padding-top: 70px;
-        margin-left: 10px;
-        
-        margin-bottom: 80px;
-       
-        
-    }
-
-    .container-player-box{
-        width: 100%;
-        height: 440px;
-        border: 1px solid #FFFFFF;
-        padding: 15px;
-        background: #FFFFFF;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-      
-    }
-    .image-neymar img{
-        width: 100%;
-        height: 100%;
-    }
- 
-
-    /* THIRD SECTION  */
-
-    .container-highlights{
-        flex-direction: column;
-    }
-
-    .copa-highlights-2021{
-        width: 65%;
-    
-    }
-    
-    .highlights-title{
-        font-size: 28px;
-    }
-    
-    .highlights-title-description{
-        margin-left: 10px;
-        margin-right: 130px;
-        
-    }
-    .image-copa-highlights img {
-
-    display: none;
-    }
-
-    
-    /* FOURTH SECTION */
-
-    
-    
-    .footy-feature-box{
-        flex-direction: column;
-        
-        
-    }
-    .footy-box{
-        margin-top: 20px;
-    }
-
-    .footy-description{
-       
-        margin: 0;
-        
-    }
-    .description-footy{
-        margin-right: 45%;
-        margin-left: 10px;
-    }
-
-
- /* FIFTH SECTION */
-
- .image-footer img{
-     width: 50%;
- }
- 
- .container-footer{
-     margin-top: 230%;
- }
-
- .fab{
-     padding-right: 15px;
-     
-
- }
- .footer-icon{
-     margin-right: 110px;
- }
-small{
-    margin-right: 130px;
-}
-
-}
-
 
 
 
@@ -562,182 +374,55 @@ MEDIA QUERY FOR TABLET DEVICE
 /* FIRST SECTION */
 
 @media only screen and (max-width:688px) {
-    .main-container-copa{
-       width: 400px ;
-       height: 677px;
-       background-color:rgb(93,15,227);
-       overflow-x: hidden;
-       overflow-y: hidden;
-   }
-   
-   .container-copa-america{
-       
-       flex-direction: column;
-     
-   
-   }
-   
-   .copa-america-2021{
-       width: 100%;
-       margin-right: 20%;
-      
-   }
-   
-   .image-copa-america img{
-       width: 30%;
-       
-       position: relative;
-       left: 60px;
-       top: -50px;
-   
-   }
-   
-   .copa-america-title{
-       font-family: 'Poppins', sans-serif;
-       font-size: 44px;
-       font-weight: 700;
-       color: #FFFFFF;
-       flex-wrap: wrap;
-       
-       
-   }
-   
-   
-   .image-copa-america{
-       
-       height: 438px;
-       margin-top: 1px;
-       margin-right: 100%;
-       
-   }
-   
-   .image-copa-america:hover{
-       transform: rotate(2deg);
-       -webkit-transform: rotate(2deg);
-       -moz-transform: rotate(2deg);
-       -ms-transform: rotate(2deg);
-       -o-transform: rotate(2deg);
-       transition: transform 5s ease-in;
-       -webkit-transition: transform 2s ease-in;
-       -moz-transition: transform 5s ease-in;
-       -ms-transition: transform 5s ease-in;
-       -o-transition: transform 5s ease-in;
-}
-   .copa-america-title{
-       margin-right: 70%;
-       
-   }
-   .copa-america-text{
-       font-size: 30px;
-   }
-
-   /* SECOND SECTION */
-
-   .player-box-1st-row, .player-box-2nd-row, .player-box-3rd-row,.player-box-4th-row{
-       display: grid;
-       grid-template-columns: repeat(1, 1fr);
-       grid-column-gap: 30px;
-       grid-row-gap: 27px;
-      
-       
-   }
-   
-   .main-container-player{
-       padding-top: 70px;
-       margin-left: 10px;
-       
-       margin-bottom: 80px;
-      
-       
-   }
-
-   .container-player-box{
-       width: 100%;
-       height: 440px;
-       border: 1px solid #FFFFFF;
-       padding: 15px;
-       background: #FFFFFF;
-   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-     
-   }
-   .image-neymar img{
-       width: 100%;
-       height: 100%;
-   }
-
-
-   /* THIRD SECTION  */
-
-   .container-highlights{
-       flex-direction: column;
-   }
-
-   .copa-highlights-2021{
-       width: 65%;
-   
-   }
-   
-   .highlights-title{
-       font-size: 28px;
-   }
-   
-   .highlights-title-description{
-       margin-left: 10px;
-       margin-right: 130px;
-       
-   }
-   .image-copa-highlights img {
-
-   display: none;
-   }
-
-   
-   /* FOURTH SECTION */
-
-   
-   
-   .footy-feature-box{
-       flex-direction: column;
-       
-       
-   }
-   .footy-box{
-       margin-top: 20px;
-   }
-
-   .footy-description{
-      
-       margin: 0;
-       
-   }
-   .description-footy{
-       margin-right: 45%;
-       margin-left: 10px;
-   }
-
-
-/* FIFTH SECTION */
-
-.image-footer img{
-    width: 50%;
-}
-
-.container-footer{
-    margin-top: 230%;
-}
-
-.fab{
-    padding-right: 15px;
     
+    .container-copa-america {
+        flex-direction: column;
+    }
+    .main-container-copa{
+        width: 100%;
+        height: 850px;
+    }
 
-}
-.footer-icon{
-    margin-right: 110px;
-}
-small{
-   margin-right: 130px;
+    .copa-title-btn {
+        margin-left: 10px;
+        margin-top: 54px;
+        margin-bottom: 0px;
+    }
+    
+    .copa-america-2021{
+        width: 90%;
+    }
+
+    .image-copa-america {
+        width: 85%;
+        height: 200px;
+        margin-top: 67px;
+        margin-left: 5%;
+       
+    }
+
+
+    .image-copa-america:hover{
+        transform: rotate(10deg);
+        -webkit-transform: rotate(10deg);
+        -moz-transform: rotate(10deg);
+        -ms-transform: rotate(10deg);
+        -o-transform: rotate(10deg);
+       
 }
 
 
-}
 
+
+
+
+
+
+
+    main, .highlights-title, .highlights-description, .btn-highlights, .image-copa-highlights img{
+        display: none;
+    }
+
+    
+    
+}
