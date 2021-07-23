@@ -412,13 +412,22 @@ MEDIA QUERY FOR TABLET DEVICE
 
 
 
+    /* SECOND SECTION */
+
+    .container-players-box{
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 10px;
+    }
 
 
 
 
 
-
-    main, .highlights-title, .highlights-description, .btn-highlights, .image-copa-highlights img{
+      .image-copa-highlights img, .description-footy,.footy-feature-box, .main-container-footer{
         display: none;
     }
 
