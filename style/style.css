@@ -424,13 +424,82 @@ MEDIA QUERY FOR TABLET DEVICE
     }
 
 
-
-
-
-      .image-copa-highlights img, .description-footy,.footy-feature-box, .main-container-footer{
-        display: none;
+    /* Third section */
+    .highlights-title-description{
+        margin-left: 58px;
+        margin-right: 0px;
+    }
+    .main-container-highlights-copa{
+        margin-top: 2px;
+    }
+    
+    .container-highlights{
+        flex-direction: column;
+        align-items: center;
+    }
+    .copa-highlights-2021{
+        width: 50%;
+       
+    }
+    .highlights-description{
+        margin-right: 0px;
+    }
+    .image-copa-highlights{
+        margin-right: 0px;
     }
 
+    .image-copa-highlights img{
+        width: 200px;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .highlights-title-description{
+        margin-left: 10px;
+    }
+    
+
+    /* Fourth section */
+
+
+    .footy-description{
+        margin-left: 5px;
+        margin-right: 12px ;
+    }
+
+    .main-container-footy {
+        width: 80%;
+        margin-top: 40px;
+    }
+
+    .footy-feature-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footy-box{
+        margin-bottom: 30px;
+        padding: 80px;
+    }
+
+    .image-footer img{
+        width: 50%;
+        height: auto;
+        margin-left: 22%;
+    
+    }
+
+    .main-container-footer{
+        margin-top: 1030px;
+        width: 100%;
+    }
+
+   
+    
+
+
+       
     
     
 }
